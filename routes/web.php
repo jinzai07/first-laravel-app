@@ -14,3 +14,19 @@
 Route::get('/', function () {
     return view('home.index');
 });
+Route::get('/about', function () {
+    return view('about.index');
+});
+Route::get('/contact', function () {
+    return view('contact.index');
+});
+
+// Route::get('/customers', 'CustomersController@index');
+// Route::get('/customers/create', 'CustomersController@create');
+// Route::post('/customers', 'CustomersController@store');
+// Route::get('/customers/{customer}', 'CustomersController@show');
+// Route::get('/customers/{customer}/edit', 'CustomersController@edit');
+// Route::patch('/customers/{customer}', 'CustomersController@update');
+// Route::delete('/customers/{customer}', 'CustomersController@destroy');
+
+Route::resource('customers', 'CustomersController');
