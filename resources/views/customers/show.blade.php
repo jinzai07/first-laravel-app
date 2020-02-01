@@ -1,15 +1,15 @@
 @extends('layout')
 @section('title', 'Details for ' . $customer->name)
 @section('content')
-    <h1 class="text-success">Details for {{ $customer->name }}</h1>
-    <ul>
-        <li><a href="/customers/{{ $customer->id }}/edit">Edit Customer</a></li>
-        <form action="/customers/{{ $customer->id }}" method="POST">
-            @method('DELETE')
-            @csrf
-            <button class="btn btn-danger" type="submit">Delete!</button>
-        </form>
-    </ul>
+    <h4 class="text-muted">Details for {{ $customer->name }}</h4>
+    <form action="/customers/{{ $customer->id }}/edit">
+        <input type="submit" value="Edit Customer!" class="btn btn-success">
+    </form>
+    <form action="/customers/{{ $customer->id }}" method="POST">
+        @method('DELETE')
+        @csrf
+        <button class="btn btn-danger" type="submit">Delete!</button>
+    </form>
     <div>
         <label for="name" class="text-primary"><h4>Customer name:</h4></label>
         <p>{{ $customer->name }}</p>
