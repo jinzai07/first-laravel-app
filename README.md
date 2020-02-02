@@ -1,5 +1,6 @@
 <h2> My first laravel application! </h2>
 <p> This is my very first laravel application where I learned the basic concepts about <strong>Laravel framework</strong> <p>
+<p> This application performs basic <strong>CRUD</strong> operations and uses <strong>REST</strong>ful pattern </p>
 
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
