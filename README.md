@@ -2,6 +2,8 @@
 <p> This is my very first laravel application where I learned the basic concepts about <strong>Laravel framework</strong> <p>
 <p> This application performs basic <strong>CRUD</strong> operations and follows <strong>RESTful</strong> pattern </p>
 
+<hr>
+
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
